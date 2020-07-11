@@ -21,7 +21,7 @@ section{
     );
     background-repeat:no-repeat;
     background-size:cover;
-   }
+   }git
 
  nav ul{
       display: flex;
@@ -37,3 +37,16 @@ section{
      font-weight: bold;
      color: #2d2a2a;
  }
+.text container p:nth-child(1){
+    font-family: carlibri;
+    font-weight: bold;
+    color: #6d6d6d;
+    font-size: 22px;
+}
+.text container p:nth-child(2){
+    font-family: carlibri;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: 1a1a1a;
+    font-size: 60px;
+}
