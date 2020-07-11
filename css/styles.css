@@ -76,9 +76,9 @@ section{
 .model{
     height: 560px;
     position: absolute;
-    bottom:0px;
-    left: 70%;
-    transform: translate(-70%);
+    bottom:40px;
+    left:70%;
+    transform: translateX(-70%);
 }
 .about-container{
  width: 80%;
@@ -88,5 +88,6 @@ section{
  box-shadow: 2px 12px rgba(0,0,0,0,2);
  display: flex;
  margin: -7% auto 20px auto;
- position: relative;   
+ position: relative;  
+
 }
