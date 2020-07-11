@@ -15,9 +15,10 @@ a{
 section{
     widows:100%;
     height:95vh;
-    background-image:url( ../images/developer.jpg);
+    background-image:url( ../images/bg.png);
     background-repeat:no-repeat;
     background-size:cover;
+    position: relative;
    }
  nav{
      display: flex;
@@ -46,14 +47,14 @@ section{
 .text-container p:nth-child(1){
     font-family: carlibri;
     font-weight: bold;
-    color: #6d6d6d;
+    color: #1a1a1a;
     font-size: 22px;
 }
 .text-container p:nth-child(2){
     font-family: carlibri;
     font-weight: bold;
     letter-spacing: 1px;
-    color: 1a1a1a;
+    color: #6d6d6d;
     font-size: 60px;
 }
 .text-container p:nth-child(3){
@@ -72,4 +73,13 @@ section{
     top: 42%;
     transform: translate(-13%,-42%);
 }    
-
+.model{
+    height: 560px;
+    position: absolute;
+    bottom:0px;
+    left: 70%;
+    transform: translate(-70%);
+}
+.about-container{
+    
+}
