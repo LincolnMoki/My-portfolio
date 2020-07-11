@@ -76,7 +76,7 @@ section{
 .model{
     height: 560px;
     position: absolute;
-    bottom:40px;
+    bottom:0px;
     left:70%;
     transform: translateX(-70%);
 }
@@ -92,6 +92,7 @@ section{
  justify-content: space-evenly; 
  align-items: center;
 }
+
 .about-container img{
     height: 250px;
 }
@@ -118,3 +119,75 @@ section{
     font-family: calibri;
     font-size: 16px;
 }
+.contact{
+    height: 600px;
+    background-color: #ffffff;
+}
+
+
+.contact-container p{
+    width: 80%;
+ height: 330px;
+ background-color: #ffffff;
+ border-radius: 20px;
+ box-shadow: 2px 12px rgba(0,0,0,0,2);
+ display: flex;
+ margin: -7% auto 20px auto;
+ position: relative; 
+ justify-content: space-evenly; 
+ align-items: center;
+}
+.contacts{
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height:0vh ;
+  background-size: cover;
+  background-image: url("https://bit.ly/2oU5rHl")
+}
+
+.contacts h3{
+      text-align: center;
+      font-size: 40px;
+      position: relative;
+      margin-top: 10%;
+      color:black;
+}
+
+input {
+     width: 50%;
+     font-size: 40px;
+     text-align: center;
+     border: 2px solid black;
+     border-radius: 20px;
+  
+}
+
+.btn {
+     border: none;
+     background-color: green;
+     padding: 14px 28px;
+     font-size: 16px;
+     cursor: pointer;
+     display: inline-block;
+}
+
+.btn:hover {
+     background:black;
+     color:white;
+     transition: 0.3s; 
+     box-shadow: 10px 10px 15px grey; 
+}
+
+.submit {
+     border-radius: 30px;
+     border: 2px solid white;
+     color: white;
+     
+}
+
+.footer{
+     font-size: 30px;
+     margin-top: 40px;
+}
+
