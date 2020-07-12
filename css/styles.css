@@ -147,7 +147,20 @@ section{
     font-family: calibri;
     font-size: 16px;
 }
-
+contact-me h3 {
+	color:black;
+	font-size:30px;
+	font-family: 'Cinzel', serif;
+	line-height:25px;
+	font-weight:bold;
+	padding: 80px 0 20px;
+}
+.contact-me p {
+	padding:5px 0 60px;
+	font-size:17px;
+	line-height:25px;
+	font-weight:400;
+}
 
 
 
