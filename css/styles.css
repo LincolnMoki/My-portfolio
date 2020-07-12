@@ -147,7 +147,16 @@ section{
     font-family: calibri;
     font-size: 16px;
 }
-contact-me h3 {
+/*-- Footer --*/
+.contact-me {
+	padding:2% 10% 0px 10%;
+	position:relative;
+    margin:0 auto;
+    height: 990px;
+    background-color:rgb(163, 163, 159);
+    border-radius: 20px;
+}
+.contact-me h3 {
 	color:black;
 	font-size:30px;
 	font-family: 'Cinzel', serif;
@@ -161,6 +170,138 @@ contact-me h3 {
 	line-height:25px;
 	font-weight:400;
 }
+input#name {
+	outline:none;
+	height:50px;
+    padding:10px;
+	border-radius:0px;
+	border-left: none;
+    border-top: none;
+    border-right: none;
+	border-bottom:2px solid black;
+}
+input#email {
+	outline:none;
+    margin: 4% auto;
+	padding:10px;
+	height:50px;
+	border-radius:0px;
+	border-left: none;
+    border-top: none;
+    border-right: none;
+	border-bottom:2px solid black;
+}
+textarea.form-control {
+    height: 140px;
+	outline:none;
+	border-radius:0px;
+	border-left: none;
+    border-top: none;
+    border-right: none;
+	border-bottom:2px solid black;
+}
+.form-control:focus {
+    border-color:transparent;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow:none; 
+}
+.contact-me button.btn.btn-default.btn-lg {
+	background-color:#A1B3A4;
+	border-color:#A1B3A4;
+	color: #fff;
+	outline:none;
+	border-radius:0px;
+	margin: 3% auto 0;
+	padding: 15px 35px;
+	transition:all 0.5s ease-in-out;
+	-webkit-transition:all 0.5s ease-in-out;
+	-moz-transition:all 0.5s ease-in-out;
+	-o-transition:all 0.5s ease-in-out;
+	-ms-transition:all 0.5s ease-in-out;
+}
+.contact-me button.btn.btn-default.btn-lg:hover {
+	background-color:#000;
+	color:#fff;
+}
+.contact-info h4 {
+	font-family: 'Cinzel', serif;
+	font-size:20px;
+	line-height:25px;
+	font-weight:bold;
+}
+.contact-info p {
+    padding: 15px 0;
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 400;
+	color:#000;
+}
+.footer-info i{
+	color:#A1B3A4;
+	font-size: 30px;
+    margin: 25px 20px 10px 25px;
+    display: inline-block;
+}
+p.p1{
+	padding:0;
+	display: inline-block;
+	color: #000;
+	vertical-align: middle;
+	    margin: -50px 0 0;
+	font-size:16px;
+	font-weight: 500;
+}
+p.p2 {
+	padding:0;
+	display:block;
+	color: #000;
+	vertical-align: middle;
+	font-weight: 500;
+	font-size:16px;
+	margin: -27px 0 0 80px;
+}
+p.p1 a {
+	text-decoration:none;
+	color:#000;
+}
+p.p1 a:hover {
+	color:#A1B3A4;
+}
+p.p2 a {
+	text-decoration:none;
+	color:#000;
+}
+p.p2 a:hover {
+	color:#A1B3A4;
+}
+.contact-info h5 {
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: bold;
+	padding: 2em 0 0 .3em;
+}
+hr{
+	border-top:1px solid #BDB8B8;
+	margin-top:45px;
+}
+.copyright p a{
+	text-decoration:none;
+	color:#8C8C8C;
+}
+.copyright p{
+	color:#8C8C8C;
+	padding: 5px 0 17px;
+	font-weight:400;
+	font-size:15px;
+}
+footer span.glyphicon.glyphicon-chevron-up {
+	margin: 0 0 0 50%;
+	color:red;
+}
+/*-- /Footer --*/
+
 
 
 
