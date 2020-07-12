@@ -1,5 +1,5 @@
 # MY PORTFOLIO
-- This is a website that basically explains about myself in the web development industry. 
+- This is a website that briefly explains about myself . 
 ## Author's Name
  - Lincoln Moki
  ## Technology used 
@@ -14,8 +14,7 @@
 ##  Live Link
 - Click to get my GitHub link:
 -  https://github.com/RonnyLincoln/My-portfolio.git
-## Bugs known
-- I got some bugs while linking pictures from my local machine hence not diplaying at the portfolio.
+
 ## Support and Contacts Details
 - Email: mwithiamoki@gmail.com.
 - Phone-No:0720143730.
