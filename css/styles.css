@@ -8,12 +8,12 @@ body{
 
 ul {
     list-style-type: none;
-    margin: 20px;
+    margin: 60px;
     padding: 12px;
-    width: 45%;
-    background-color: rgb(134, 153, 89);
+    width: 100%;
+    background-color: rgb(151, 167, 146);
     display:inline;
-    justify-content:right;
+    justify-content:center;
     border-radius: 100px; 
  }
  
@@ -31,14 +31,14 @@ ul {
  li a:hover {
     background-color:white;
     color:black;
-    box-shadow: 10px 10px 15px rgb(107, 233, 69);
+    box-shadow: 10px 10px 15px rgb(136, 228, 109);
     
  }
 
 section{
     widows:100%;
     height:95vh;
-    background-image:url( ../images/SeekPng.com_square-border-png_935003.png);
+    background-image:url( ../images/wengang-zhai-cFRjc-17xfc-unsplash.jpg);
     background-repeat:no-repeat;
     background-size:cover;
     position: relative;
@@ -70,8 +70,9 @@ section{
 .text-container p:nth-child(1){
     font-family: carlibri;
     font-weight: bold;
-    color: #1a1a1a;
-    font-size: 22px;
+    color: #222121;
+    font-size: 60px;
+    
 }
 .text-container p:nth-child(2){
     font-family: carlibri;
@@ -92,9 +93,10 @@ section{
 }
 .text-container{
     position: absolute;
-    left: 13%;
+    left: 35%;
     top: 42%;
     transform: translate(-13%,-42%);
+    justify-content: center;
 }    
 .model{
     height: 60px;
@@ -153,7 +155,7 @@ section{
 	position:relative;
     margin:0 auto;
     height: 990px;
-    background-color:rgb(230, 230, 224);
+    background-color:rgba(175, 120, 68, 0.582);
     border-radius: 20px;
 }
 .contact-me h3 {
